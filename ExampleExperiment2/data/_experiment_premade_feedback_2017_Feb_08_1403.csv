@@ -1,0 +1,4 @@
+correctAns,practice_image,practice_loop.thisRepN,practice_loop.thisTrialN,practice_loop.thisN,practice_loop.thisIndex,experiment_loop.thisRepN,experiment_loop.thisTrialN,experiment_loop.thisN,experiment_loop.thisIndex,image,welcome_keypress.keys,welcome_keypress.rt,response_keys_practice.keys,response_keys_practice.corr,response_keys_practice.rt,expName,participant,gender,age,frameRate,session,date,
+,,,,,,,,,,,space,0.581312894821,,,,experiment_premade_feedback,,,,59.8504845198,001,2017_Feb_08_1403,
+y,duckling2.png,0,0,0,0,,,,,,,,y,1,0.473686933517,experiment_premade_feedback,,,,59.8504845198,001,2017_Feb_08_1403,
+n,baby_donald.png,0,1,1,1,,,,,,,,y,0,0.455382823944,experiment_premade_feedback,,,,59.8504845198,001,2017_Feb_08_1403,

@@ -1,0 +1,59 @@
+5.2508 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 1.,  1.,  1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x187ed5a8>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.2508 	EXP 	window1: recordFrameIntervals = False
+5.4160 	EXP 	window1: recordFrameIntervals = True
+5.6000 	EXP 	window1: recordFrameIntervals = False
+5.6502 	EXP 	Created welcome_slide = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='welcome_slide.png', interpolate=True, mask=None, maskParams=None, name='welcome_slide', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.390625,  1.5625  ]), texRes=128, units=u'norm', win=Window(...))
+5.6561 	EXP 	Created real_image_practice = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='real_image_practice', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+5.7480 	EXP 	Created fixation_cross_practice = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='fixation_cross_practice', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+5.7585 	EXP 	Created instructions_practice = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='instructions.png', interpolate=True, mask=None, maskParams=None, name='instructions_practice', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.85 ,  0.405]), texRes=128, units=u'norm', win=Window(...))
+5.7824 	EXP 	Created feedbacktext = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='feedbacktext', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+5.7880 	EXP 	Created real_image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='real_image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+5.7935 	EXP 	Created fixation_cross = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='fixation_cross', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+5.8062 	EXP 	Created instructions = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='instructions.png', interpolate=True, mask=None, maskParams=None, name='instructions', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.85 ,  0.405]), texRes=128, units=u'norm', win=Window(...))
+5.8327 	EXP 	welcome_slide: autoDraw = True
+6.3691 	DATA 	Keypress: space
+6.4181 	EXP 	Imported practice_trials.xlsx as conditions, 2 conditions, 2 params
+6.4186 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+6.4195 	EXP 	New trial (rep=0, index=0): {u'correctAns': u'y', u'practice_image': u'duckling2.png'}
+6.4869 	EXP 	welcome_slide: autoDraw = False
+6.4869 	EXP 	real_image_practice: size = array([ 0.46875,  0.75   ])
+6.4869 	EXP 	real_image_practice: image = u'duckling2.png'
+6.4869 	EXP 	fixation_cross_practice: autoDraw = True
+6.9344 	EXP 	fixation_cross_practice: autoDraw = False
+6.9510 	EXP 	real_image_practice: autoDraw = True
+7.9376 	EXP 	real_image_practice: autoDraw = False
+7.9376 	EXP 	instructions_practice: autoDraw = True
+8.3943 	DATA 	Keypress: y
+8.4441 	EXP 	real_image_practice: autoDraw = False
+8.4441 	EXP 	fixation_cross_practice: autoDraw = False
+8.4441 	EXP 	instructions_practice: autoDraw = False
+8.4441 	EXP 	feedbacktext: text = 'Correct! \nExcellent animal recognition!'
+8.4441 	EXP 	feedbacktext: autoDraw = True
+9.3965 	EXP 	New trial (rep=0, index=1): {u'correctAns': u'n', u'practice_image': u'baby_donald.png'}
+9.4452 	EXP 	feedbacktext: autoDraw = False
+9.4452 	EXP 	feedbacktext: autoDraw = False
+9.4452 	EXP 	real_image_practice: size = array([ 0.46875,  0.75   ])
+9.4452 	EXP 	real_image_practice: image = u'baby_donald.png'
+9.4452 	EXP 	fixation_cross_practice: autoDraw = True
+9.9103 	EXP 	fixation_cross_practice: autoDraw = False
+9.9271 	EXP 	real_image_practice: autoDraw = True
+10.9133 	EXP 	real_image_practice: autoDraw = False
+10.9133 	EXP 	instructions_practice: autoDraw = True
+11.3520 	DATA 	Keypress: y
+11.4010 	EXP 	real_image_practice: autoDraw = False
+11.4010 	EXP 	fixation_cross_practice: autoDraw = False
+11.4010 	EXP 	instructions_practice: autoDraw = False
+11.4010 	EXP 	feedbacktext: text = 'Oops! That was wrong!'
+11.4010 	EXP 	feedbacktext: autoDraw = True
+12.4248 	EXP 	Imported trials.xlsx as conditions, 8 conditions, 2 params
+12.4254 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+12.4263 	EXP 	New trial (rep=0, index=0): {u'correctAns': u'y', u'image': u'duck4.png'}
+12.4702 	EXP 	feedbacktext: autoDraw = False
+12.4702 	EXP 	real_image: size = array([ 0.46875,  0.75   ])
+12.4702 	EXP 	real_image: image = u'duck4.png'
+12.4702 	EXP 	fixation_cross: autoDraw = True
+12.9365 	EXP 	fixation_cross: autoDraw = False
+12.9532 	EXP 	real_image: autoDraw = True
+13.9395 	EXP 	real_image: autoDraw = False
+13.9563 	EXP 	instructions: autoDraw = True
+14.0072 	DATA 	Keypress: escape
